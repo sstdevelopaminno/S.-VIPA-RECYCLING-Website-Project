@@ -1,0 +1,12 @@
+# OS / editor files
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
+
+# Dependencies, environment secrets, Vercel local state
+node_modules/
+.env
+.env.*
+!.env.example
+.vercel/
