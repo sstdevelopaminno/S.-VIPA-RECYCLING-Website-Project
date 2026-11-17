@@ -1,0 +1,268 @@
+import type { Locale } from "./config";
+
+const th = {
+  meta: {
+    title: "ส.วิพา รีไซเคิล | รับซื้อและจำหน่ายวัสดุรีไซเคิล",
+    description: "บริษัท ส.วิพา รีไซเคิล จำกัด รับซื้อและจำหน่ายวัสดุรีไซเคิลในจังหวัดปทุมธานี",
+  },
+  brand: {
+    aria: "ส.วิพา รีไซเคิล กลับหน้าแรก",
+    logoAlt: "โลโก้ ส.วิพา รีไซเคิล",
+    name: "ส.วิพา รีไซเคิล",
+    company: "S. VIPA RECYCLING CO., LTD.",
+    promise: ["รับซื้อ – ขาย", "วัสดุรีไซเคิลทุกชนิด*"],
+  },
+  nav: [
+    { label: "หน้าแรก", href: "home" },
+    { label: "เกี่ยวกับเรา", href: "about" },
+    { label: "บริการของเรา", href: "services" },
+    { label: "รายการรับซื้อ", href: "materials" },
+    { label: "ข่าวสาร/บทความ", href: "news" },
+    { label: "ติดต่อเรา", href: "contact" },
+  ],
+  menuOpen: "เปิดเมนู",
+  menuClose: "ปิดเมนู",
+  language: "เลือกภาษา",
+  hero: {
+    title: "ส.วิพา รีไซเคิล",
+    company: "S. VIPA RECYCLING CO., LTD.",
+    slogan: ["ศูนย์รับซื้อและจำหน่ายวัสดุรีไซเคิล", "ครบวงจร"],
+    imageAlt: "ลานคัดแยกและโรงงานรีไซเคิล",
+    services: [
+      { icon: "coins", lines: ["รับซื้อของเก่า", "ราคายุติธรรม"] },
+      { icon: "recycle", lines: ["คัดแยก", "มาตรฐาน"] },
+      { icon: "truck", lines: ["บริการรับซื้อ", "ถึงที่*"] },
+      { icon: "leaf", lines: ["ส่งเสริม", "การรีไซเคิล"] },
+    ],
+    contact: "ติดต่อรับซื้อทันที",
+    quote: "ขอใบเสนอราคา",
+  },
+  materials: {
+    title: "รับซื้อวัสดุรีไซเคิลหลากหลายประเภท",
+    subtitle: "รับซื้อของเก่า คัดแยก และนำกลับมาใช้ใหม่ เพื่อสิ่งแวดล้อมที่ยั่งยืน",
+    items: [
+      { icon: "box", image: "material-metal.jpg", title: "โลหะ / เหล็ก", detail: "ทองแดง อะลูมิเนียม", alt: "เหล็กและโลหะสำหรับรีไซเคิล" },
+      { icon: "can", image: "material-aluminium.jpg", title: "อะลูมิเนียม", detail: "กระป๋องเครื่องดื่ม", alt: "กระป๋องอะลูมิเนียม" },
+      { icon: "bottle", image: "material-plastic.jpg", title: "พลาสติก", detail: "PET, HDPE, PP ฯลฯ", alt: "ขวดพลาสติกใส" },
+      { icon: "paper", image: "material-paper.jpg", title: "กระดาษ", detail: "กระดาษลัง, กระดาษใช้แล้ว", alt: "กระดาษและกล่องกระดาษ" },
+      { icon: "glass", image: "material-glass.jpg", title: "แก้ว", detail: "ขวดแก้วทุกชนิด*", alt: "ขวดแก้วเพื่อรีไซเคิล" },
+      { icon: "chip", image: "material-ewaste.jpg", title: "ขยะอิเล็กทรอนิกส์", detail: "(E-Waste)*", alt: "แผงวงจรอิเล็กทรอนิกส์" },
+    ],
+  },
+  why: {
+    label: "จุดเด่นธุรกิจ",
+    imageAlt: "มือประคองสัญลักษณ์รีไซเคิลสีเขียว",
+    title: ["ทำไมต้องเลือก", "ส.วิพา รีไซเคิล ?"],
+    features: [
+      { icon: "scale", title: "ให้ราคาดี", detail: "เป็นธรรม*" },
+      { icon: "shield", title: "น่าเชื่อถือ", detail: "ซื่อสัตย์ โปร่งใส*" },
+      { icon: "truck", title: "บริการรับซื้อ", detail: "ถึงสถานที่*" },
+      { icon: "recycle", title: "คัดแยกอย่างมืออาชีพ", detail: "และเป็นมิตรต่อสิ่งแวดล้อม*" },
+    ],
+  },
+  contactStrip: {
+    label: "ช่องทางติดต่อด่วน",
+    prompt: ["สนใจขายของเก่า / สอบถามราคา", "ติดต่อเราได้เลย!"],
+    pending: ["เบอร์โทร / LINE", "รอยืนยันข้อมูล"],
+    address: ["ที่อยู่สำนักงาน", "เมืองปทุมธานี จ.ปทุมธานี"],
+  },
+  about: {
+    eyebrow: "ABOUT S. VIPA RECYCLING",
+    title: "เปลี่ยนของเก่าให้กลับมามีคุณค่า",
+    description: "แนวทางเว็บไซต์สำหรับ บริษัท ส.วิพา รีไซเคิล จำกัด (S. VIPA RECYCLING CO., LTD.) ธุรกิจซื้อ–ขายของเก่าและวัสดุรีไซเคิล นำเสนอภาพลักษณ์ที่ทันสมัย พร้อมอธิบายประเภทวัสดุและช่องทางติดต่ออย่างชัดเจน",
+    features: [
+      { icon: "recycle", text: "นำเสนอประเภทวัสดุอย่างชัดเจนและเข้าใจง่าย" },
+      { icon: "truck", text: "เตรียมพื้นที่แสดงข้อมูลการรับซื้อและบริการจริง" },
+      { icon: "phone", text: "รองรับการติดต่อจากลูกค้าบนโทรศัพท์มือถือ" },
+    ],
+    visualLabel: "กราฟิกรีไซเคิล",
+  },
+  services: {
+    eyebrow: "OUR SERVICES",
+    title: "ซื้อ–ขายวัสดุรีไซเคิลได้อย่างสะดวก",
+    description: "ขั้นตอนต่อไปนี้เป็นข้อเสนอสำหรับการออกแบบเว็บไซต์ สามารถปรับตามกระบวนการทำงานจริงของบริษัท",
+    steps: [
+      { step: "ขั้นตอน 01", title: "แจ้งประเภทวัสดุ", detail: "ส่งข้อมูลชนิดของเก่า ปริมาณโดยประมาณ และภาพประกอบ เพื่อให้บริษัทประเมินข้อมูลเบื้องต้น" },
+      { step: "ขั้นตอน 02", title: "สอบถามราคาและเงื่อนไข", detail: "ตรวจสอบราคารับซื้อ เงื่อนไขการชั่งน้ำหนัก หรือการนัดหมายกับผู้รับซื้อ" },
+      { step: "ขั้นตอน 03", title: "ตกลงซื้อขาย", detail: "ยืนยันราคา วิธีการนำส่งวัสดุ และขั้นตอนการชำระเงินตามข้อตกลงจริง" },
+    ],
+  },
+  news: {
+    eyebrow: "NEWS & UPDATES",
+    title: "ข่าวสารและประกาศราคารับซื้อ",
+    panelTitle: "พื้นที่ข่าวสารสำหรับบริษัท",
+    description: "ส่วนนี้รองรับการเพิ่มบทความความรู้ด้านรีไซเคิล ข่าวสารกิจการ และประกาศราคารับซื้อรายวันเมื่อได้รับข้อมูลจริงจากบริษัท ขณะนี้ยังไม่แสดงราคาหรือประกาศที่ไม่ได้ยืนยัน",
+  },
+  contact: {
+    eyebrow: "CONTACT US",
+    title: ["มีของเก่าต้องการขาย?", "ติดต่อสอบถามได้เลย"],
+    description: "ที่อยู่และอีเมลด้านล่างเป็นข้อมูลที่ได้รับจากผู้ว่าจ้างเบื้องต้น โดยข้อมูลทะเบียนนิติบุคคลจะตรวจสอบอีกครั้งหลังได้รับเอกสาร DBD ส่วนแบบฟอร์มสอบถามราคายังใช้สำหรับสร้างข้อความเท่านั้น ไม่ได้ส่งข้อมูลอัตโนมัติ",
+    info: [
+      { icon: "location", title: "ที่อยู่สำนักงานใหญ่ (ข้อมูลเบื้องต้น)", lines: ["508/3 หมู่ที่ 1 ตำบลบ้านใหม่ อำเภอเมืองปทุมธานี จังหวัดปทุมธานี 12000", "รอเอกสารยืนยันจาก DBD"] },
+      { icon: "quote", title: "อีเมลติดต่อ", lines: ["s.viparecycling@gmail.com"] },
+      { icon: "phone", title: "เบอร์โทรศัพท์", lines: ["รอยืนยันหมายเลขจากบริษัท"] },
+      { icon: "recycle", title: "LINE Official", lines: ["รอยืนยันบัญชี LINE จากบริษัท"] },
+    ],
+  },
+  quoteForm: {
+    title: "แบบฟอร์มสอบถามราคารับซื้อ",
+    intro: "กรอกข้อมูลแล้วกดสร้างข้อความเพื่อคัดลอกไปสอบถามกับบริษัท",
+    name: "ชื่อผู้ติดต่อ",
+    namePlaceholder: "ชื่อของคุณ",
+    phone: "เบอร์โทรติดต่อ",
+    phonePlaceholder: "เบอร์โทรสำหรับให้ติดต่อกลับ",
+    material: "ประเภทวัสดุ",
+    materialPlaceholder: "เลือกประเภทวัสดุ",
+    options: ["เหล็กและโลหะ", "อะลูมิเนียม", "พลาสติก", "กระดาษ", "แก้ว", "ขยะอิเล็กทรอนิกส์", "อื่น ๆ"],
+    details: "รายละเอียดเพิ่มเติม",
+    detailsPlaceholder: "ระบุปริมาณ สภาพวัสดุ หรือข้อสงสัย",
+    submit: "สร้างและคัดลอกข้อความสอบถาม",
+    copied: "สร้างและคัดลอกข้อความแล้ว กรุณานำไปส่งให้บริษัททางอีเมล",
+    generated: "สร้างข้อความแล้ว กรุณาคัดลอกข้อความด้านล่าง",
+    template: { hello: "เรียน ส.วิพา รีไซเคิล", name: "ชื่อผู้ติดต่อ", phone: "เบอร์โทร", material: "ประเภทวัสดุ", details: "รายละเอียด" },
+    disclaimer: "แบบฟอร์มนี้สร้างข้อความให้คัดลอกเท่านั้น ยังไม่ส่งข้อมูลให้บริษัท หากต้องการติดต่อทันที ให้ส่งอีเมลไปที่",
+  },
+  footer: {
+    brand: "♻ ส.วิพา รีไซเคิล — S. VIPA RECYCLING CO., LTD.",
+    office: "สำนักงาน: 508/3 หมู่ที่ 1 ตำบลบ้านใหม่ อำเภอเมืองปทุมธานี จังหวัดปทุมธานี 12000",
+    disclaimer: "ที่อยู่และอีเมลได้รับแจ้งเบื้องต้น รอยืนยันเอกสาร DBD; รายการวัสดุ บริการนอกสถานที่ และเวลาทำการยังต้องยืนยันก่อนใช้งานจริง",
+    backTop: "กลับขึ้นด้านบน ↑",
+  },
+};
+
+const en = {
+  meta: {
+    title: "S. Vipa Recycling | Recycling Materials Buyer & Supplier",
+    description: "S. Vipa Recycling Co., Ltd. buys and supplies recyclable materials in Pathum Thani, Thailand.",
+  },
+  brand: {
+    aria: "S. Vipa Recycling, back to home",
+    logoAlt: "S. Vipa Recycling logo",
+    name: "S. Vipa Recycling",
+    company: "S. VIPA RECYCLING CO., LTD.",
+    promise: ["Buying & selling", "all recyclable materials*"],
+  },
+  nav: [
+    { label: "Home", href: "home" },
+    { label: "About", href: "about" },
+    { label: "Services", href: "services" },
+    { label: "Materials", href: "materials" },
+    { label: "News", href: "news" },
+    { label: "Contact", href: "contact" },
+  ],
+  menuOpen: "Open menu",
+  menuClose: "Close menu",
+  language: "Select language",
+  hero: {
+    title: "S. Vipa Recycling",
+    company: "S. VIPA RECYCLING CO., LTD.",
+    slogan: ["Your center for buying and supplying", "recyclable materials"],
+    imageAlt: "Recycling yard and processing facility",
+    services: [
+      { icon: "coins", lines: ["Competitive", "fair pricing"] },
+      { icon: "recycle", lines: ["Standardized", "sorting"] },
+      { icon: "truck", lines: ["On-site pickup", "service*"] },
+      { icon: "leaf", lines: ["Supporting", "recycling"] },
+    ],
+    contact: "Sell materials now",
+    quote: "Request a quote",
+  },
+  materials: {
+    title: "We buy a wide range of recyclable materials",
+    subtitle: "Buying, sorting, and returning used materials to productive use for a more sustainable environment.",
+    items: [
+      { icon: "box", image: "material-metal.jpg", title: "Metals / Steel", detail: "Copper and aluminium", alt: "Steel and metal for recycling" },
+      { icon: "can", image: "material-aluminium.jpg", title: "Aluminium", detail: "Beverage cans", alt: "Aluminium beverage cans" },
+      { icon: "bottle", image: "material-plastic.jpg", title: "Plastics", detail: "PET, HDPE, PP, etc.", alt: "Clear plastic bottles" },
+      { icon: "paper", image: "material-paper.jpg", title: "Paper", detail: "Cardboard and used paper", alt: "Paper and cardboard" },
+      { icon: "glass", image: "material-glass.jpg", title: "Glass", detail: "All glass bottles*", alt: "Glass bottles for recycling" },
+      { icon: "chip", image: "material-ewaste.jpg", title: "Electronic Waste", detail: "E-Waste*", alt: "Electronic circuit boards" },
+    ],
+  },
+  why: {
+    label: "Business strengths",
+    imageAlt: "Hands holding a green recycling symbol",
+    title: ["Why choose", "S. Vipa Recycling?"],
+    features: [
+      { icon: "scale", title: "Good pricing", detail: "Fair and transparent*" },
+      { icon: "shield", title: "Dependable", detail: "Honest and transparent*" },
+      { icon: "truck", title: "Pickup service", detail: "At your location*" },
+      { icon: "recycle", title: "Professional sorting", detail: "Environmentally responsible*" },
+    ],
+  },
+  contactStrip: {
+    label: "Quick contact",
+    prompt: ["Selling recyclable materials?", "Ask us for a price."],
+    pending: ["Phone / LINE", "Details pending"],
+    address: ["Office location", "Mueang Pathum Thani, Thailand"],
+  },
+  about: {
+    eyebrow: "ABOUT S. VIPA RECYCLING",
+    title: "Giving used materials new value",
+    description: "This website concept presents S. Vipa Recycling Co., Ltd., a buyer and supplier of used and recyclable materials, with a modern image and clear information about materials and contact options.",
+    features: [
+      { icon: "recycle", text: "Clear, easy-to-understand material categories" },
+      { icon: "truck", text: "Dedicated space for confirmed purchasing and service details" },
+      { icon: "phone", text: "Mobile-friendly customer contact options" },
+    ],
+    visualLabel: "Recycling graphic",
+  },
+  services: {
+    eyebrow: "OUR SERVICES",
+    title: "A convenient way to trade recyclable materials",
+    description: "These proposed steps can be adjusted to match the company’s confirmed operating process.",
+    steps: [
+      { step: "Step 01", title: "Tell us about the materials", detail: "Share the material type, estimated quantity, and photos so the company can make an initial assessment." },
+      { step: "Step 02", title: "Check price and terms", detail: "Confirm the purchase price, weighing conditions, and any appointment or pickup arrangements." },
+      { step: "Step 03", title: "Confirm the transaction", detail: "Agree on the price, delivery method, and payment process using the company’s confirmed terms." },
+    ],
+  },
+  news: {
+    eyebrow: "NEWS & UPDATES",
+    title: "News and purchasing-price updates",
+    panelTitle: "Company news area",
+    description: "This area can publish recycling articles, company news, and daily purchase-price notices once confirmed. Unverified prices and announcements are not currently displayed.",
+  },
+  contact: {
+    eyebrow: "CONTACT US",
+    title: ["Have recyclable materials to sell?", "Get in touch with us"],
+    description: "The address and email below are preliminary client-provided details. Company registration data will be rechecked after DBD documents are received. The quote form currently creates a message only and does not submit data automatically.",
+    info: [
+      { icon: "location", title: "Head office (preliminary)", lines: ["508/3 Moo 1, Ban Mai, Mueang Pathum Thani, Pathum Thani 12000, Thailand", "Pending DBD document confirmation"] },
+      { icon: "quote", title: "Contact email", lines: ["s.viparecycling@gmail.com"] },
+      { icon: "phone", title: "Telephone", lines: ["Pending confirmation from the company"] },
+      { icon: "recycle", title: "LINE Official", lines: ["Pending confirmation from the company"] },
+    ],
+  },
+  quoteForm: {
+    title: "Purchase-price enquiry",
+    intro: "Complete the form to create and copy a message for the company.",
+    name: "Contact name",
+    namePlaceholder: "Your name",
+    phone: "Telephone",
+    phonePlaceholder: "A number where we can reach you",
+    material: "Material type",
+    materialPlaceholder: "Select a material type",
+    options: ["Steel and metals", "Aluminium", "Plastics", "Paper", "Glass", "Electronic waste", "Other"],
+    details: "Additional details",
+    detailsPlaceholder: "Quantity, material condition, or questions",
+    submit: "Create and copy enquiry",
+    copied: "Your message has been created and copied. Please email it to the company.",
+    generated: "Your message is ready. Please copy it below.",
+    template: { hello: "Dear S. Vipa Recycling", name: "Contact name", phone: "Telephone", material: "Material", details: "Details" },
+    disclaimer: "This form creates a message only and does not send it to the company. For immediate contact, email",
+  },
+  footer: {
+    brand: "♻ S. VIPA RECYCLING CO., LTD.",
+    office: "Office: 508/3 Moo 1, Ban Mai, Mueang Pathum Thani, Pathum Thani 12000, Thailand",
+    disclaimer: "The address and email are preliminary. DBD documents, material categories, off-site services, and business hours must be confirmed before production use.",
+    backTop: "Back to top ↑",
+  },
+};
+
+export const dictionaries = { th, en } as const;
+export type Dictionary = (typeof dictionaries)[Locale];
+
+export function getDictionary(locale: Locale): Dictionary {
+  return dictionaries[locale];
+}
