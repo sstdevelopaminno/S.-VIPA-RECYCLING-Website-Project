@@ -5,6 +5,33 @@ const th = {
     title: "ส.วิพา รีไซเคิล | รับซื้อและจำหน่ายวัสดุรีไซเคิล",
     description: "บริษัท ส.วิพา รีไซเคิล จำกัด รับซื้อและจำหน่ายวัสดุรีไซเคิลในจังหวัดปทุมธานี",
   },
+  pageMeta: {
+    about: {
+      kicker: "รู้จัก ส.วิพา รีไซเคิล",
+      title: "เกี่ยวกับบริษัทและแนวทางการทำงาน",
+      description: "ทำความรู้จัก บริษัท ส.วิพา รีไซเคิล จำกัด ผู้รับซื้อและจำหน่ายวัสดุรีไซเคิล พร้อมแนวทางการคัดแยกและการติดต่อที่ชัดเจน",
+    },
+    services: {
+      kicker: "บริการของเรา",
+      title: "บริการรับซื้อและซื้อขายวัสดุรีไซเคิล",
+      description: "ขั้นตอนสอบถามราคา ประเมินวัสดุ นัดหมาย และตกลงซื้อขายวัสดุรีไซเคิลกับ ส.วิพา รีไซเคิล",
+    },
+    materials: {
+      kicker: "รายการรับซื้อ",
+      title: "ประเภทวัสดุรีไซเคิลที่รับซื้อ",
+      description: "ตรวจสอบรายการเบื้องต้นสำหรับเหล็ก โลหะ อะลูมิเนียม พลาสติก กระดาษ แก้ว และขยะอิเล็กทรอนิกส์",
+    },
+    news: {
+      kicker: "ข่าวสารและบทความ",
+      title: "ความรู้เรื่องการคัดแยกและรีไซเคิล",
+      description: "อ่านแนวทางเตรียมวัสดุ คัดแยกของเก่า และติดตามข่าวสารหรือประกาศที่ได้รับการยืนยันจากบริษัท",
+    },
+    contact: {
+      kicker: "ติดต่อเรา",
+      title: "สอบถามราคารับซื้อวัสดุรีไซเคิล",
+      description: "ติดต่อ ส.วิพา รีไซเคิล หรือสร้างข้อความสอบถามราคา พร้อมระบุประเภท ปริมาณ และสภาพวัสดุเบื้องต้น",
+    },
+  },
   brand: {
     aria: "ส.วิพา รีไซเคิล กลับหน้าแรก",
     logoAlt: "โลโก้ ส.วิพา รีไซเคิล",
@@ -92,6 +119,11 @@ const th = {
     title: "ข่าวสารและประกาศราคารับซื้อ",
     panelTitle: "พื้นที่ข่าวสารสำหรับบริษัท",
     description: "ส่วนนี้รองรับการเพิ่มบทความความรู้ด้านรีไซเคิล ข่าวสารกิจการ และประกาศราคารับซื้อรายวันเมื่อได้รับข้อมูลจริงจากบริษัท ขณะนี้ยังไม่แสดงราคาหรือประกาศที่ไม่ได้ยืนยัน",
+    articles: [
+      { title: "แยกวัสดุก่อนขาย ช่วยให้ตรวจสอบได้ง่ายขึ้น", detail: "แยกโลหะ พลาสติก กระดาษ และแก้วออกจากกัน พร้อมนำสิ่งปนเปื้อนออกเท่าที่ทำได้ก่อนสอบถามราคา" },
+      { title: "ข้อมูลที่ควรเตรียมก่อนสอบถามราคา", detail: "แจ้งชนิดวัสดุ ปริมาณโดยประมาณ สภาพวัสดุ สถานที่ และแนบภาพ เพื่อใช้ประเมินข้อมูลเบื้องต้น" },
+      { title: "เหตุผลที่ควรตรวจสอบประกาศราคา", detail: "ราคาวัสดุอาจเปลี่ยนแปลงตามชนิด คุณภาพ ปริมาณ และเงื่อนไขการรับซื้อ จึงควรยืนยันกับบริษัทก่อนทุกครั้ง" },
+    ],
   },
   contact: {
     eyebrow: "CONTACT US",
@@ -134,6 +166,33 @@ const en = {
   meta: {
     title: "S. Vipa Recycling | Recycling Materials Buyer & Supplier",
     description: "S. Vipa Recycling Co., Ltd. buys and supplies recyclable materials in Pathum Thani, Thailand.",
+  },
+  pageMeta: {
+    about: {
+      kicker: "About S. Vipa Recycling",
+      title: "Our company and approach",
+      description: "Learn about S. Vipa Recycling Co., Ltd., a buyer and supplier of recyclable materials with clear sorting and contact information.",
+    },
+    services: {
+      kicker: "Our services",
+      title: "Recyclable-material purchasing services",
+      description: "See the enquiry, assessment, appointment, and transaction steps for recyclable materials with S. Vipa Recycling.",
+    },
+    materials: {
+      kicker: "Materials we buy",
+      title: "Recyclable material categories",
+      description: "Review preliminary categories for steel, metals, aluminium, plastics, paper, glass, and electronic waste.",
+    },
+    news: {
+      kicker: "News and articles",
+      title: "Sorting and recycling knowledge",
+      description: "Read material-preparation guidance and follow company news or purchasing notices once they are confirmed.",
+    },
+    contact: {
+      kicker: "Contact us",
+      title: "Ask about recyclable-material prices",
+      description: "Contact S. Vipa Recycling or create an enquiry message with the material type, estimated quantity, and condition.",
+    },
   },
   brand: {
     aria: "S. Vipa Recycling, back to home",
@@ -222,6 +281,11 @@ const en = {
     title: "News and purchasing-price updates",
     panelTitle: "Company news area",
     description: "This area can publish recycling articles, company news, and daily purchase-price notices once confirmed. Unverified prices and announcements are not currently displayed.",
+    articles: [
+      { title: "Sort materials before selling", detail: "Separate metals, plastics, paper, and glass, and remove contaminants where practical before requesting a price." },
+      { title: "What to prepare for a price enquiry", detail: "Share the material type, estimated quantity, condition, location, and photos for an initial assessment." },
+      { title: "Why purchasing notices need confirmation", detail: "Prices may vary by material, quality, quantity, and purchasing terms, so confirm the current details with the company." },
+    ],
   },
   contact: {
     eyebrow: "CONTACT US",

@@ -1,9 +1,7 @@
 import Image from "next/image";
 import { notFound } from "next/navigation";
-import { BackToTop } from "@/components/back-to-top";
-import { Icon, IconSprite } from "@/components/icons";
+import { Icon } from "@/components/icons";
 import { QuoteForm } from "@/components/quote-form";
-import { SiteHeader } from "@/components/site-header";
 import { getDictionary } from "@/i18n/dictionaries";
 import { isLocale } from "@/i18n/config";
 
@@ -15,19 +13,7 @@ export default async function HomePage({ params }: Props) {
   const dictionary = getDictionary(locale);
 
   return (
-    <>
-      <IconSprite />
-      <SiteHeader
-        locale={locale}
-        copy={{
-          brand: dictionary.brand,
-          nav: dictionary.nav,
-          menuOpen: dictionary.menuOpen,
-          menuClose: dictionary.menuClose,
-          language: dictionary.language,
-        }}
-      />
-      <main id="home">
+    <main id="home">
         <section className="hero" aria-labelledby="heroTitle">
           <div className="hero-image">
             <Image
@@ -168,17 +154,6 @@ export default async function HomePage({ params }: Props) {
             <QuoteForm copy={dictionary.quoteForm} />
           </div>
         </section>
-      </main>
-      <footer className="footer">
-        <div className="wrap">
-          <div>
-            <b>{dictionary.footer.brand}</b><br />
-            <small>{dictionary.footer.office} · <a className="footer-mail" href="mailto:s.viparecycling@gmail.com">s.viparecycling@gmail.com</a></small><br />
-            <small>{dictionary.footer.disclaimer}</small>
-          </div>
-          <BackToTop label={dictionary.footer.backTop} />
-        </div>
-      </footer>
-    </>
+    </main>
   );
 }
